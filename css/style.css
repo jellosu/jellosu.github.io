@@ -1,0 +1,248 @@
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.font-bold {
+    font-weight: 500;
+}
+#header{
+    background-color: #fff;
+}
+#header .menulist{
+    float:right;
+    position: relative;
+    margin-right: 150px;
+    padding-top: 30px;
+    
+    
+}
+#header .menulist .n{
+    text-decoration: none;
+    padding-left: 30px;
+    color: #D44255;
+}
+
+#header .logo{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+
+
+#first{
+    width:100%;
+    height: 600px;
+    background-color: #D44255;
+    color: #D44255;
+    z-index: -1;
+    display: inline-block;
+    margin:0px;
+}
+#first .left{
+    float:left;
+    width:50%;
+}
+#first .left .first_text{
+    color: #fff;
+    padding-top:170px;
+    padding-left:250px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+#first .left .first_text2{
+    color: #fff;
+    padding-bottom:50px;
+    padding-left:250px;
+    margin: 0px;
+    font-size: 46px;
+    line-height: 1.25;
+}
+#first .right{
+    float:right;
+    width: 50%;
+}
+#first .right .mainiphone{
+    width: 500px;
+    padding-top:80px;
+    padding-left: 50px;
+}
+#first .left .store{
+    padding-left: 250px;
+}
+
+/*#first .left .btn{*/
+/*    width: 100px;*/
+/*    height: 40px;*/
+/*    margin-left: 250px;*/
+/*}*/
+
+/*.btn-outline {*/
+/*  color: white;*/
+/*  border: 1px solid;*/
+/*  border-color: white;*/
+/* border-radius: 30px;*/
+/* padding-left: 250px;*/
+
+/*}*/
+/*.btn-xl {*/
+/*  font-size: 15px;*/
+/*  padding: 15px 45px;*/
+/*}*/
+#second {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    margin: 0px;
+}
+#second .text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.content_title2{
+font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+   font-size: 26px;
+   color:#D44255;
+}
+.content_content2{
+     font-size: 16px;
+     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.second_title{
+    font-size:38px;
+    color: #D44255;
+}
+.second_content{
+    font-size: 22px;
+}
+.text{
+     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#second .container_all{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#second .container .col-lg-4{
+    width:33%;
+    float:left;
+}
+#second .container .col-lg-4 .col-lg-12{
+    padding-left: 190px;
+    padding-bottom: 40px;
+}
+.secondtext1{
+    text-align: center;
+}
+
+#second .container .main-feature-title{
+    font-size:20px;
+}
+
+
+
+#third{
+    background-color: #ededed;
+        width: 100%;
+        height:730px;
+}
+#third .text{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+#third .media{
+    padding-left: 450px;
+  width: 713px;
+  height: 401px;
+  /*vertical-align: middle;*/
+}
+.iframe{
+        border-width: 2px;
+    border-color: #D44255;
+    vertical-align: middle;
+}
+
+#fouth{
+    background-color: #f7f7f7;
+        width: 100%;
+        height: 773px;
+}
+#fouth .img{
+    float: left;
+    margin-left:250px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+    
+}
+#fouth .section{
+    padding-top: 300px;
+    position: relative;
+}
+.section_title{
+         font-size: 38px;
+     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  color:#D44255;
+}
+    
+.section_content{
+         font-size: 22px;
+     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  
+}
+    
+#footer{
+    background-color: #313131;
+    width: 100%;
+    height: 100px;
+}
+#footer .container{
+    vertical-align: center;
+}
+
+#footer .info{
+    padding-left: 150px;
+    position: absolute;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    color:#c0c0c0;
+    float: left;
+    
+}
+#footer .sns{
+    float: left;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+#footer .sns .facebook{
+    float: left;
+    padding:10px 10px 10px 10px;
+}
+#footer .sns .instagram{
+    float: left;
+    padding:10px 10px 10px 10px;
+}
+#footer .sns .github{
+    float: left;
+    padding:10px 10px 10px 10px;
+}
